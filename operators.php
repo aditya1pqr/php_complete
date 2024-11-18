@@ -1,5 +1,9 @@
 <?php
-
+$str1="hello everyone ";
+$str2="world";
+echo $str1.=$str2; // this is concatenation of string using .= operator'
+echo '<br>';     // 
+echo "hii $str2"; // thsi the way how concatinate the string
 
 
 
@@ -16,4 +20,11 @@
 
 ) ;
 3= logical operators && || ! ;
-4= assignment operators = += -= *= /= %= **=  ; -->
+4= assignment operators = += -= *= /= %= **=  ; 
+5= increment and decrement operators ++ -- ;
+6= string operators .  .= ;
+
+
+
+
+-->
