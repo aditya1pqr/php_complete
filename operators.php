@@ -1,11 +1,17 @@
 <?php
-$str1="hello everyone ";
-$str2="world";
-echo $str1.=$str2; // this is concatenation of string using .= operator'
-echo '<br>';     // 
-echo "hii $str2"; // thsi the way how concatinate the string
+// $str1="hello everyone ";
+// $str2="world";
+// echo $str1.=$str2; // this is concatenation of string using .= operator'
+// echo '<br>';     // 
+// echo "hii $str2"; // thsi the way how concatinate the string
 
+$a=10;
+$b=20;
 
+if ($a==100 xor $b==20)
+{
+    echo "condition is true";
+}
 
 ?>
 
@@ -19,7 +25,7 @@ echo "hii $str2"; // thsi the way how concatinate the string
  if a is equal to b then it return 0
 
 ) ;
-3= logical operators && || ! ;
+3= logical operators && || !   xor ;  && and are same || or is same  xor is check if both condition are true then it return false or both contion false then it also return false it give true if any one statement is true
 4= assignment operators = += -= *= /= %= **=  ; 
 5= increment and decrement operators ++ -- ;
 6= string operators .  .= ;
